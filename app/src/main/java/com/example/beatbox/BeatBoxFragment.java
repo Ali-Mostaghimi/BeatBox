@@ -21,12 +21,19 @@ public class BeatBoxFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
+
+        for (int i = 0; i < 10; i++){
+            //put something cool here
+        }
+
         View view = inflater.inflate(R.layout.fragment_beat_box, container, false);
 
         RecyclerView recyclerView = view.findViewById(R.id.fragment_beat_box_recycler_view);
         recyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 3));
         recyclerView.setAdapter(new SoundAdapter());
         return view;
+
+
 
     }
 
