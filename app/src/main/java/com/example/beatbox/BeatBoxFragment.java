@@ -24,7 +24,6 @@ public class BeatBoxFragment extends Fragment {
 
         for (int i = 0; i < 10; i++){
             //put something cool here
-
         }
 
         View view = inflater.inflate(R.layout.fragment_beat_box, container, false);
