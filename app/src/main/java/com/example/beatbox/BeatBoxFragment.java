@@ -51,7 +51,8 @@ public class BeatBoxFragment extends Fragment {
         @NonNull
         @Override
         public SoundHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-            return null;
+            LayoutInflater inflater = LayoutInflater.from(getActivity());
+            return new SoundHolder(inflater, parent);
         }
 
         @Override
