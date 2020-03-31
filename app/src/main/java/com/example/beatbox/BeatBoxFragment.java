@@ -22,7 +22,7 @@ public class BeatBoxFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
 
-        //someone fixes my bug.
+        //refactored to cleanup...
 
         View view = inflater.inflate(R.layout.fragment_beat_box, container, false);
 
